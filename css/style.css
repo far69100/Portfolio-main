@@ -4,81 +4,57 @@
 }
 
 body {
-    background-color: #435C8D;
+    background-color: #001A6E;
  }
 
-img {
 
-   width: 10%;
-
-}
-
-.all-blue-channel {
-
-   display: flex;
-   max-width: 20%;
-}
-
-
-
-#photo-farouk {
-   width: 12,5%;
-}
-
-.projets-persos-img {
-   width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-bottom: 3em;
-
-}
-
-
- div {
-   padding: 2em 0 2em 0;
- }
-
- #name {
-    color: white;
+ li {
+   padding: 4%;
  }
 
  img {
-   padding: 2em;
+   width: 100%;
  }
 
-p{
-   font-size: 4em;
-    padding: 2em;
+ .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+    align-items: flex-start;
+ }
+
+.zone-photos {
+   display: flex;
+   flex-flow: row wrap;
 }
 
- .zone-photos1 {
-   display: flex;
-   justify-content: space-around;
-   
- }
-
- .nav-bar{
-    display: flex;
-    justify-content:space-around ;
- }
-
- h1 {
-   text-align: center;
-    padding: 1em 0;
-    font-size: 8em;
- }
-
-.contacts {
-   display: flex;
-   justify-content: space-evenly;
-   list-style-type: none;
+.all-blue-channel{
+   width: 50%;
+   padding: 2%;
 }
 
-li {
-   padding-top: 2em;
+ #photo-farouk {
+   width: 50%
+ }
+
+ #profil-allblue {
+   width: 50%;   
+ }
+
+ footer { 
    display: flex;
-   flex-flow: column;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   align-items: center;
+ }
+ 
+ .contacts {
    display: flex;
-   flex-flow: column;
-}
+   width: 10%;
+   align-content: center;
+   justify-content: flex-end;
+   align-items: baseline;
+   flex-direction: row;
+ }
