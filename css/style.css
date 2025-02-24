@@ -1,12 +1,11 @@
-* {
-    margin: 0 ;
-    padding: 0 ;
-}
 
 body {
     background-color: #001A6E;
  }
 
+ main {
+  background-color: #074799;
+ }
 
  li {
    padding: 4%;
@@ -40,21 +39,14 @@ body {
  #profil-allblue {
    width: 50%;   
  }
-
- footer { 
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-content: center;
-   align-items: center;
- }
  
  .contacts {
-   display: flex;
-   width: 10%;
-   align-content: center;
-   justify-content: flex-end;
-   align-items: baseline;
-   flex-direction: row;
- }
+  display : flex ;
+  justify-content : space-around; 
+}
+li.contacts {
+   display : flex ;
+  flex-direction : column;
+  align-content: center; 
+}
+
